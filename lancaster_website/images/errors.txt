@@ -1,0 +1,2 @@
+[1/26/2017, 11:41:11 AM] layer "+358789123456 +3587123759123": Expected Either a default asset specification or a layer asset specification but "+" found.
+[1/26/2017, 11:41:10 AM] layer "contact@lancaster.com support@lancaster.com": Unsupported extension: com
