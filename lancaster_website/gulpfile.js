@@ -1,5 +1,7 @@
 var gulp = require('gulp');
 var $    = require('gulp-load-plugins')();
+var uglify       = require('gulp-uglify');
+var concat       = require('gulp-concat');
 
 var sassPaths = [
   'bower_components/normalize.scss/sass',
@@ -20,6 +22,17 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('css'));
 });
 
-gulp.task('default', ['sass'], function() {
+gulp.task('scripts', function() {
+    return gulp.src([
+        'js/app.js'
+    ])
+        .pipe(concat('app.min.js'))
+        .pipe(uglify())
+        .pipe(gulp.dest('js/'));
+
+});
+
+gulp.task('default', ['sass', 'scripts'], function() {
   gulp.watch(['scss/**/*.scss'], ['sass']);
+  gulp.watch(['js/**/*.js'], ['scripts']);
 });

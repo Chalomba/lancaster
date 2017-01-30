@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lancaster solutions</title>
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
 </head>
 <body>
 <div id="home" class="expanded row">
@@ -17,10 +18,10 @@
                     <a href="#"><img src="images/logo.png" alt="Lancaster solutions"></a>
                 </div>
                 <ul id="menu">
-                    <li><a href="#home"><span>01</span> Home</a></li>
-                    <li><a href="#what_we_do"><span>02</span> what we do</a></li>
-                    <li><a href="#our_team"><span>03</span> our team</a></li>
-                    <li><a href="#contact"><span>04</span> Contact</a></li>
+                    <li><a href="#home"><span>01</span> <p>Home</p></a></li>
+                    <li><a href="#what_we_do"><span>02</span><p>what we do</p></a></li>
+                    <li><a href="#our_team"><span>03</span> <p>our team</p></a></li>
+                    <li><a href="#contact_us"><span>04</span> <p>Contact</p></a></li>
                 </ul>
             </nav>
         </header>
@@ -44,8 +45,13 @@
             </a>
         </div>
     </div>
-</div>
 
+    <div class="section-number">
+        <h3 class="wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">01</h3>
+        <hr class="wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
+    </div>
+
+</div>
 <div id="what_we_do" class="expanded row">
     <div class="row">
         <div class="large-8 large-offset-2 columns">
@@ -60,7 +66,7 @@
     </div>
     <div class="row">
         <div class="large-12 columns">
-            <hr>
+            <hr class="separator">
             <a href="#"><img class="float-center red_label" src="images/red_label.png" alt=""></a>
         </div>
     </div>
@@ -75,6 +81,10 @@
             <a href=""><img src="images/microservices.png" alt="microservices"></a>
             <img class="float-right gears" src="images/gears.png" alt="">
         </div>
+    </div>
+    <div class="section-number">
+        <hr class="wow bounceInUp" data-wow-duration="1.5s">
+        <h3 class="wow bounceInUp" data-wow-duration="1.5s">02</h3>
     </div>
 </div>
 <div id="our_team" class="expanded row">
@@ -200,9 +210,31 @@
     </div>
 </div>
 
+<footer>
+    <div class="row">
+        <div class="large-2 large-offset-10 columns">
+            <div class="social-icons">
+                <div>
+                    <a href="#"><i class="facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="linked-in" aria-hidden="true"></i></a>
+                    <a href="#"><i class="google" aria-hidden="true"></i></a>
+                </div>
+                <div>
+                    <a href="#"><i class="instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="pinterest" aria-hidden="true"></i></a>
+                    <a href="#"><i class="dribble" aria-hidden="true"></i></a>
+                    <a href="#"><i class="youtube" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/what-input/dist/what-input.js"></script>
 <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
-<script src="js/app.js"></script>
+<script src="bower_components/wow/dist/wow.min.js"></script>
+<script src="js/app.min.js"></script>
 </body>
 </html>
