@@ -9,232 +9,287 @@
     <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
 </head>
 <body>
-<div id="home" class="expanded row">
+<div data-sticky-container>
+    <div class="expanded row sticky" id="fix_header">
+        <div class="test">
+        <div class="row">
+            <div class="large-12 columns">
+                <nav>
 
-    <div class="row">
-        <header>
-            <nav>
-                <div class="float-left">
-                    <a href="#"><img src="images/logo.png" alt="Lancaster solutions"></a>
-                </div>
-                <ul id="menu">
-                    <li><a href="#home"><span>01</span> <p>Home</p></a></li>
-                    <li><a href="#what_we_do"><span>02</span><p>what we do</p></a></li>
-                    <li><a href="#our_team"><span>03</span> <p>our team</p></a></li>
-                    <li><a href="#contact_us"><span>04</span> <p>Contact</p></a></li>
-                </ul>
-            </nav>
-        </header>
-    </div>
-    <div class="row">
-        <div class="large-8 large-offset-2 columns">
-            <h1 class="text-center">We have 1000 and 1 valuable solution
-                for your craziest e-commerce ideas</h1>
-            <h2 class="text-center">let us bring your business to the new heights</h2>
-        </div>
-    </div>
-    <div class="row">
-        <div class="large-4 large-offset-4 columns button_section">
-            <a href="#" class="button large float-center">Learn More</a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="large-12 lap_top">
-            <a href="#">
-                <img src="images/top-pic.png" class="float-center" alt="Lancaster solutions">
-            </a>
-        </div>
-    </div>
+                        <a href="#"><img class="float-left" src="images/logo.png"alt="Lancaster solutions"></a>
 
-    <div class="section-number">
-        <h3 class="wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">01</h3>
-        <hr class="wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
-    </div>
+                    <button class="hamburger hide-for-large">&#9776;</button>
+                    <button class="cross hide-for-large">&#735;</button>
 
-</div>
-<div id="what_we_do" class="expanded row">
-    <div class="row">
-        <div class="large-8 large-offset-2 columns">
-            <h2 class="text-center">Relax... and watch...</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a ty pe specimen book. It has survived not only five centuries, but also the leap
-                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                software...</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="large-12 columns">
-            <hr class="separator">
-            <a href="#"><img class="float-center red_label" src="images/red_label.png" alt=""></a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="large-10 large-offset-1 columns tools">
-            <a href=""><img src="images/php.png" alt="php"></a>
-            <a href=""><img src="images/symphony.png" alt="symphony"></a>
-            <a href=""><img src="images/docker.png" alt="docker"></a>
-            <a href=""><img src="images/redis.png" alt="redis"></a>
-            <a href=""><img src="images/mongodb.png" alt="mongodb"></a>
-            <a href=""><img src="images/nodejs.png" alt="nodejs"></a>
-            <a href=""><img src="images/microservices.png" alt="microservices"></a>
-            <img class="float-right gears" src="images/gears.png" alt="">
-        </div>
-    </div>
-    <div class="section-number">
-        <hr class="wow bounceInUp" data-wow-duration="1.5s">
-        <h3 class="wow bounceInUp" data-wow-duration="1.5s">02</h3>
-    </div>
-</div>
-<div id="our_team" class="expanded row">
-    <div class="row">
-        <div class="large-8 large-offset-2 columns">
-            <h2 class="text-center">Get acquainted with our team</h2>
+                    <ul id="menu">
+                        <li><a href="#home"><span>01</span>
+                            <p>Home</p></a></li>
+                        <li><a href="#what_we_do"><span>02</span>
+                            <p>what we do</p></a></li>
+                        <li><a href="#our_team"><span>03</span>
+                            <p>our team</p></a></li>
+                        <li><a href="#contact_us"><span>04</span>
+                            <p>Contact</p></a></li>
+                    </ul>
 
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a ty pe specimen book. It has survived not only five centuries, but also
-                the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
-                1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                desktop publishing software...</p>
-            <hr>
-        </div>
-    </div>
-    <div class="row team">
-        <div class="large-5 large-offset-1 columns">
-            <div class="large-4 columns">
-                <img src="images/pm.png" alt="">
-            </div>
-            <div class="large-8 columns">
-                <h3>project maintenance</h3>
-                <ul>
-                    <li>updating website with fresh content;</li>
-                    <li>migration to a newest versions of software;</li>
-                    <li>regular page(product) speed improvement;</li>
-                    <li>updating website with fresh content.</li>
-                </ul>
+                </nav>
             </div>
         </div>
-        <div class="large-5 columns end">
-            <div class="large-4 columns">
-                <img src="images/promotion.png" alt="">
-            </div>
-            <div class="large-8 columns">
-                <h3>promotion team</h3>
-                <ul>
-                    <li>updating website with fresh content;</li>
-                    <li>migration to a newest versions of software;</li>
-                    <li>regular page(product) speed improvement;</li>
-                    <li>updating website with fresh content.</li>
-                </ul>
-            </div>
         </div>
-    </div>
-    <div class="row team">
-        <div class="large-5 large-offset-1 columns">
-            <div class="large-4 columns">
-                <img src="images/it.png" alt="it">
-            </div>
-            <div class="large-8 columns">
-                <h3>it team</h3>
-                <ul>
-                    <li>updating website with fresh content;</li>
-                    <li>migration to a newest versions of software;</li>
-                    <li>regular page(product) speed improvement;</li>
-                    <li>updating website with fresh content.</li>
-                </ul>
-            </div>
-        </div>
-        <div class="large-5 columns end">
-            <div class="large-4 columns">
-                <img src="images/support.png" alt="support">
-            </div>
-            <div class="large-8 columns">
-                <h3>support team</h3>
-                <ul>
-                    <li>updating website with fresh content;</li>
-                    <li>migration to a newest versions of software;</li>
-                    <li>regular page(product) speed improvement;</li>
-                    <li>updating website with fresh content.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="contact_us" class="expanded row">
-    <div class="row">
-        <div class="large-8 large-offset-2 columns">
-            <h2 class="text-center">Contact us</h2>
-
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a ty pe specimen book. It has survived not only five centuries, but also
-                the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
-                1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                desktop publishing software...</p>
-            <hr>
-        </div>
-    </div>
-    <div class="row">
-        <div class="large-12 columns contact">
-            <div class="large-4 columns">
-                <h3 class="text-center">phone</h3>
-                <img class="float-center" src="images/tel.png" alt="tel">
-                <center>
-                <a href="tel:+358789123456">+358789123456</a><br>
-                <a href="tel:+3587123759123">+3587123759123</a>
-                </center>
-            </div>
-            <div class="large-4 columns">
-                <h3 class="text-center">location</h3>
-                <img class="float-center" src="images/location.png" alt="location">
-                <p class="text-center">Passatge de la Concepció, 4, <br>
-                    08008 Barcelona, Spain</p>
-            </div>
-            <div class="large-4 columns">
-                <h3 class="text-center">email</h3>
-                <img class="float-center" src="images/email.png" alt="email">
-                <center>
-                <a href="mailto:contact@lancaster.com">contact@lancaster.com</a><br>
-                <a href="mailto:support@lancaster.com">support@lancaster.com</a>
-                </center>
-            </div>
-        </div>
-    </div>
-    <div class="expanded" id="bottomContactPart">
-        <div class="small-12 medium-12 large-12 columns" id="bottomRight">
-            <div id="overlay" onClick="style.pointerEvents='none'"></div>
-            <iframe id="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2585.1678554850305!2d6.118187315701259!3d49.6134400793687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47954ed4fce2d06b%3A0xd80c2bf94687c466!2s2+Boulevard+de+la+Foire%2C+1528+Luxembourg!5e0!3m2!1sfr!2ses!4v1476864811958" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </div>
-</div>
-
-<footer>
-    <div class="row">
-        <div class="large-2 large-offset-10 columns">
-            <div class="social-icons">
-                <div>
-                    <a href="#"><i class="facebook" aria-hidden="true"></i></a>
-                    <a href="#"><i class="twitter" aria-hidden="true"></i></a>
-                    <a href="#"><i class="linked-in" aria-hidden="true"></i></a>
-                    <a href="#"><i class="google" aria-hidden="true"></i></a>
-                </div>
-                <div>
-                    <a href="#"><i class="instagram" aria-hidden="true"></i></a>
-                    <a href="#"><i class="pinterest" aria-hidden="true"></i></a>
-                    <a href="#"><i class="dribble" aria-hidden="true"></i></a>
-                    <a href="#"><i class="youtube" aria-hidden="true"></i></a>
+        <div class="expanded row sticky" id="fix_header_bottom">
+            <div class="row">
+                <div class="large-12 columns">
+                    <a href="#"><img class="float-left" src="images/logo_shadow.png" alt="Lancaster solutions"></a>
                 </div>
             </div>
         </div>
     </div>
-</footer>
+    <div id="home" class="expanded row">
+        <div class="row">
+            <div class="large-8 large-offset-2 columns">
+                <h1 class="text-center">We have 1000 and 1 valuable solution
+                    for your craziest e-commerce ideas</h1>
+                <h2 class="text-center">let us bring your business to the new heights</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-4 large-offset-4 columns button_section">
+                <a href="#" class="button large float-center">Learn More</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 lap_top">
+                <a href="#">
+                    <img src="images/top-pic.png" class="float-center" alt="Lancaster solutions">
+                </a>
+            </div>
+        </div>
 
-<script src="bower_components/jquery/dist/jquery.js"></script>
-<script src="bower_components/what-input/dist/what-input.js"></script>
-<script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
-<script src="bower_components/wow/dist/wow.min.js"></script>
-<script src="js/app.min.js"></script>
+        <div class="section-number">
+            <h3 class="wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">01</h3>
+            <hr class="wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
+        </div>
+
+    </div>
+    <div id="what_we_do" class="expanded row">
+        <div class="row">
+            <div class="large-8 large-offset-2 columns">
+                <h2 class="text-center">Relax... and watch...</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
+                    scrambled it to make a ty pe specimen book. It has survived not only five centuries, but also the
+                    leap
+                    into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                    the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing
+                    software...</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <hr class="separator">
+                <a href="#"><img class="float-center red_label" src="images/red_label.png" alt=""></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-10 large-offset-1 columns tools">
+                <a href=""><img src="images/php.png" alt="php"></a>
+                <a href=""><img src="images/symphony.png" alt="symphony"></a>
+                <a href=""><img src="images/docker.png" alt="docker"></a>
+                <a href=""><img src="images/redis.png" alt="redis"></a>
+                <a href=""><img src="images/mongodb.png" alt="mongodb"></a>
+                <a href=""><img src="images/nodejs.png" alt="nodejs"></a>
+                <a href=""><img src="images/microservices.png" alt="microservices"></a>
+                <img class="float-right gears" src="images/gears.png" alt="">
+            </div>
+        </div>
+        <div class="section-number">
+            <hr class="wow bounceInUp" data-wow-duration="1.5s">
+            <h3 class="wow bounceInUp" data-wow-duration="1.5s">02</h3>
+        </div>
+    </div>
+    <div id="our_team" class="expanded row">
+        <div class="row">
+            <div class="large-8 large-offset-2 columns">
+                <h2 class="text-center">Get acquainted with our team</h2>
+
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a ty pe specimen book. It has survived not only five centuries, but also
+                    the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                    1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                    desktop publishing software...</p>
+                <hr class="separator">
+            </div>
+        </div>
+        <div class="row team">
+            <div class="large-5 large-offset-1 columns">
+                <div class="large-4 columns">
+                    <img src="images/pm.png" alt="">
+                </div>
+                <div class="large-8 columns team_description">
+                    <h3>project maintenance</h3>
+                    <ul>
+                        <li>updating website with fresh content;</li>
+                        <li>migration to a newest versions of software;</li>
+                        <li>regular page(product) speed improvement;</li>
+                        <li>updating website with fresh content.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="large-5 columns end">
+                <div class="large-4 columns">
+                    <img src="images/promotion.png" alt="">
+                </div>
+                <div class="large-8 columns team_description">
+                    <h3>promotion team</h3>
+                    <ul>
+                        <li>updating website with fresh content;</li>
+                        <li>migration to a newest versions of software;</li>
+                        <li>regular page(product) speed improvement;</li>
+                        <li>updating website with fresh content.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row team">
+            <div class="large-5 large-offset-1 columns">
+                <div class="large-4 columns">
+                    <img src="images/it.png" alt="it">
+                </div>
+                <div class="large-8 columns team_description">
+                    <h3>it team</h3>
+                    <ul>
+                        <li>updating website with fresh content;</li>
+                        <li>migration to a newest versions of software;</li>
+                        <li>regular page(product) speed improvement;</li>
+                        <li>updating website with fresh content.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="large-5 columns end">
+                <div class="large-4 columns">
+                    <img src="images/support.png" alt="support">
+                </div>
+                <div class="large-8 columns team_description">
+                    <h3>support team</h3>
+                    <ul>
+                        <li>updating website with fresh content;</li>
+                        <li>migration to a newest versions of software;</li>
+                        <li>regular page(product) speed improvement;</li>
+                        <li>updating website with fresh content.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section-number">
+            <hr class="wow bounceInDown" data-wow-duration="1.5s">
+            <h3 class="wow bounceInDown" data-wow-duration="1.5s">03</h3>
+        </div>
+    </div>
+    <div id="contact_us" class="expanded row">
+        <div class="row">
+            <div class="large-8 large-offset-2 columns">
+                <h2 class="text-center">Contact us</h2>
+
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a ty pe specimen book. It has survived not only five centuries, but also
+                    the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                    1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                    desktop publishing software...</p>
+                <hr class="separator">
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns contact">
+                <div class="large-4 columns">
+                    <h3 class="text-center">phone</h3>
+                    <img class="float-center" src="images/tel.png" alt="tel">
+                    <center>
+                        <a href="tel:+358789123456">+358789123456</a><br>
+                        <a href="tel:+3587123759123">+3587123759123</a>
+                    </center>
+                </div>
+                <div class="large-4 columns">
+                    <h3 class="text-center">location</h3>
+                    <img class="float-center" src="images/location.png" alt="location">
+                    <p class="text-center">Passatge de la Concepció, 4, <br>
+                        08008 Barcelona, Spain</p>
+                </div>
+                <div class="large-4 columns">
+                    <h3 class="text-center">email</h3>
+                    <img class="float-center" src="images/email.png" alt="email">
+                    <center>
+                        <a href="mailto:contact@lancaster.com">contact@lancaster.com</a><br>
+                        <a href="mailto:support@lancaster.com">support@lancaster.com</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="expanded" id="bottomContactPart">
+            <div class="small-12 medium-12 large-12 columns" id="bottomRight">
+                <div id="overlay" onClick="style.pointerEvents='none'"></div>
+                <iframe id="iframe"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2585.1678554850305!2d6.118187315701259!3d49.6134400793687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47954ed4fce2d06b%3A0xd80c2bf94687c466!2s2+Boulevard+de+la+Foire%2C+1528+Luxembourg!5e0!3m2!1sfr!2ses!4v1476864811958"
+                        frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="section-number">
+            <hr class="wow bounceInDown" data-wow-duration="1.5s">
+            <h3 class="wow bounceInDown" data-wow-duration="1.5s">04</h3>
+        </div>
+    </div>
+
+    <footer>
+        <div class="row">
+            <div class="footer_content">
+            <div class="large-3 columns logo_footer">
+                <a href="#">
+                    <img class="float-left" src="images/logo_footer.png" alt="">
+                    <p class="text-left">Copyrights © 2016 All Rights Reserved</p>
+                </a>
+            </div>
+            <div class="large-2 large-offset-3 columns menu_footer">
+<h4>menu</h4>
+
+                <a href="#home"><p>home</p></a>
+                <a href="#what_we_do"><p>what we do</p></a>
+
+            </div>
+            <div class="large-2  columns menu_footer_2">
+                <a href="#our_team"><p>our team</p></a>
+                <a href="#contact_us"><p>contact</p></a>
+            </div>
+            <div class="large-2 columns">
+                <h4>social</h4>
+                <div class="social-icons">
+                    <div>
+                        <a href="#"><i class="facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="linked-in" aria-hidden="true"></i></a>
+                        <a href="#"><i class="google" aria-hidden="true"></i></a>
+                    </div>
+                    <div>
+                        <a href="#"><i class="instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="pinterest" aria-hidden="true"></i></a>
+                        <a href="#"><i class="dribble" aria-hidden="true"></i></a>
+                        <a href="#"><i class="youtube" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/what-input/dist/what-input.js"></script>
+    <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
+    <script src="bower_components/wow/dist/wow.min.js"></script>
+    <script src="bower_components/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.js"></script>
+    <script src="js/app.min.js"></script>
+</div>
 </body>
 </html>
